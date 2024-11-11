@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Word Matching Game</title>
+</head>
+<body>
+    <div id="game-container">
+        <h1>Word Matching Game</h1>
+        <input type="text" id="name" placeholder="Enter your name" />
+        <button id="start-button">Start Game</button>
+        
+        <div id="game-area" style="display:none;">
+            <p id="score">Score: 0</p>
+            <p id="round">Round: 1 / 5</p>
+            <div id="words-container"></div>
+            <input type="text" id="match-word" placeholder="Type the matched word" />
+            <button id="submit-button">Submit</button>
+        </div>
+        
+        <div id="scoreboard">
+            <h2>Scoreboard</h2>
+            <div id="score-list">No scores yet. Start playing!</div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
